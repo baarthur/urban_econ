@@ -10,6 +10,7 @@ institute:
 format: 
   revealjs:
     theme: solarized
+    view-distance: 5
     
 title-slide-attributes:
     data-background-image: images/paper-texture.jpg
