@@ -28,21 +28,23 @@ editor:
 
 Hey folks! I'm Arthur.
 
--   🇧🇷 from Belo Horizonte
--   Economist, 24 years old
--   Yet another city/transit nerd 🤓
--   It all started with SimCity 4 back in 2009 🏙️...
--   ...and now I know a couple of disconnected economic theories 🥴
+- 🇧🇷 from Belo Horizonte
+- Economist, 24 years old
+- Yet another city/transit nerd 🤓
+- It all started with SimCity 4 back in 2009 🏙️...
+- ...and now I know a couple of disconnected economic theories 🥴
 
 
 
 ## Outline
 
-1. What is urban economics?
-2. Why cities exist?
-3. Some fancy theories
-4. A bit of history
-4. How can **we** help?
+1.  What is urban economics?
+2.  Why do cities exist?
+3.  Some fancy theories
+4.  A bit of history
+5.  How can **we** help?
+
+
 
 
 # What is urban economics?
@@ -50,20 +52,21 @@ Hey folks! I'm Arthur.
 ## What is urban economics?
 
 - Economics + geography = urban economy!
-  + Econ: undestanding peoples' incentives, decisions, and their consequences
-  + Geo: understanding places
-  + Urban econ: understending why things are were they are
+    + Econ: undestanding peoples' incentives, decisions, and their consequences
+    + Geo: understanding places
+    + Urban econ: understending why things are were they are
 - Von Thünen (mid 1850s)
 - Alonso, Muth and Mills (mid 1950s)
 
 
 
-## Where it all began  
 
-:::: {.columns}
+## Where it all began
 
+::: columns
 ::: {.column width="60%"}
 #### First questions
+
 - Locational choice
 - Spatial patterns
 - Role of transit costs and income
@@ -71,23 +74,23 @@ Hey folks! I'm Arthur.
 
 ::: {.column width="40%"}
 #### First answers
+
 - von Thünen's Rings
 - AMM model
 :::
+:::
 
-::::
+::: {layout-ncol="2"}
+![Source: Han *et al.* (2022)](images/thunen.jpeg){width="40%"}
 
-::: {layout-ncol=2}
-![Source: Han *et al.* (2022)](images/thunen.jpeg){width=40%}
-
-![Source: Tong *et al.* (2022)](images/amm.png){width=40%}
+![Source: Tong *et al.* (2022)](images/amm.png){width="40%"}
 :::
 
 
 
-## Modern contributiuons
+## Modern contributions
 
-- Agglomeration economies 
+- Agglomeration Economies
 - New Economical Geography (Paul Krugman, 2008 Nobel Winner)
 - Emissions
 - Transit
@@ -96,43 +99,98 @@ Hey folks! I'm Arthur.
 
 
 
-# Why cities exist?
+
+# Why do cities exist?
+
+## Thinking like an economist
+
+![Trust me... it makes sense.](images/conspiracy.gif)
 
 ## Thinking like an economist
 
 - City $=$ labor market
-- That's what drive people *and* companies to cities!
-- Strong labor market $\rightarrow$ big city
+  + Labor supply ($L^s$) and demand ($L^d$)
+- People migrate to cities because of **job opportunities**
+- Large **labor supply** $\rightarrow$ business clustering
+
+```{mermaid}
+%%| mermaid-format: svg
+%%| fig-height: 2in
+
+flowchart LR
+
+A[Urban center] --> B(Large consumer market)
+B --> C(Job opportunities \n $\uparrow L^d$)
+C --> D(Migration \n $\uparrow L^s$)
+
+A --> E(Big labor pool)
+D --> E
+D --> B
+
+E --> F(Specialized jobs, \n specialized businesses)
+F --> D
+F --> C
+```
+
+> This feedback effect is what makes cities so attractive!
 
 
 
-## Strong assumptions... 
+## The agglomeration economies
+
+- Economies of scale:
+  + $\uparrow q \rightarrow$ dillute sunken costs, i.e., more production $\rightarrow$ cheaper products
+  + Job specialization $\rightarrow$ $\uparrow q$ per $\bar{L}$ and innovation
+
+```{mermaid}
+%%| mermaid-format: svg
+%%| fig-height: 2in
+
+flowchart LR
+
+A[Cities] --> B(Large consumer market)
+A --> C(Specialized labor pool)
+A --> D(Big enough niche markets)
+
+B --> E($\uparrow$ Demand)
+E --> D
+
+C --> F($\uparrow$ Productivity)
+F --> E
+F --> I(Innovation)
+
+D --> G(Diversity!)
+
+E --> H(Cheaper products)
+H --> E
+
+I --> J(Economic development)
+J --> E
+```
+
+
+
+
+
+
+
+## Strong assumptions...
 
 - Firms concentrate on a single point (CBD)
 - Families work at the CDB
 - Everyone has the same income and preferences
 - Consumption bundle: housing and "everything else"
-- Subject to: 
+- Subject to:
   + budget constraint
   + housing costs ($\$/sq. ft.$)
   + transportation costs ($\$/mi$)
-  
-  
+
+
 
 ## ...but meaningful insights
 
 - Density is higher near the CBD
 - Price is higher near the CBD
-
-
-
-## A theory is born
-
-- Local advantages $\rightarrow$ economies of scale $\rightarrow$ **agglomeration** economies!
-- Economies of scale:
-  + $\uparrow q \rightarrow$ dillute sunken costs
-  + Specialization $\rightarrow$ bigger production
-
 
 
 
