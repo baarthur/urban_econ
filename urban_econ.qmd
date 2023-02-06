@@ -55,7 +55,7 @@ Hey folks! I'm Arthur.
 - Economics + geography = urban economy!
     + Econ: undestanding peoples' incentives, decisions, and their consequences
     + Geo: understanding places
-    + Urban econ: understending why things are were they are
+    + Urban econ: understending **why** things are **where** they are
 - Von Thünen (mid 1850s)
 - Alonso, Muth and Mills (mid 1950s)
 
@@ -121,8 +121,8 @@ Hey folks! I'm Arthur.
 flowchart LR
 
 A[Urban center] --> B(Large consumer market)
-B --> C(Job opportunities \n $\uparrow L^d$)
-C --> D(Migration \n $\uparrow L^s$)
+B --> C(Job opportunities)
+C --> D(Migration)
 
 A --> E(Big labor pool)
 D --> E
@@ -153,10 +153,10 @@ A[Cities] --> B(Large consumer market)
 A --> C(Specialized labor pool)
 A --> D(Big enough niche markets)
 
-B --> E($\uparrow$ Demand)
+B --> E(Bigger demand)
 E --> D
 
-C --> F($\uparrow$ Productivity)
+C --> F(Bigger productivity)
 F --> E
 F --> I(Innovation)
 
@@ -171,15 +171,23 @@ J --> E
 
 
 
+## The agglomeration economies
+
+In short, **cities exist** because they generate **agglomeration economies**. 
+
+All of this feels very intuitive, but urban economics crystalized it and helped us understand the transmission channels
 
 
 
+
+# Some fancy theories
 
 ## Strong assumptions...
 
 - Firms concentrate on a single point (CBD)
 - Families work at the CDB
 - Everyone has the same income and preferences
+- Rational consumers 
 - Consumption bundle: housing and "everything else"
 - Subject to:
   + budget constraint
@@ -188,14 +196,199 @@ J --> E
 
 
 
-## ...but meaningful insights
+## ...but meaningful insights...
+
+- People try to avoid **commuting** costs living **closer** to the CBD
+  + $\uparrow$ Demand $\rightarrow$ $\uparrow$ land values near CBD
+- But they also want bigger homes...
+  + ...so they move to the suburbs, where land is cheaper
 
 - Density is higher near the CBD
 - Price is higher near the CBD
 
 
 
+## ...and useful predictions.
 
+### Fall in transport costs
+- E.g.: a new subway line
+- Farther places become more accessible
+  + Sprawl (!), flatter density and price gradients
+
+> People don't need anymore to live in cramped shoeboxes to get to work in 30 mins!
+
+
+
+## ...and useful predictions.
+
+### Income growth
+Remember: *uniform* income growth!
+ 
+- People want to consume more land
+- Some of them outbid others to get more space in downtown 
+- Others buy bigger homes a bit farther
+- Sprawl, flatter density gradients.
+
+
+
+## Actual data
+
+![Source: Bertaud (2018)](images/bertaud_density.png)
+
+
+
+## Actual data
+
+::: {layout-nrow=2}
+![](images/usa_dens.jpeg){height="250px"}
+![](images/br_dens.jpeg){height="250px"}
+![](images/paris_london.jpeg){height="300px"}
+:::
+
+
+
+# A bit of history
+
+## Early days
+
+:::: {.columns}
+::: {.column width="50%"}
+### Animal traction
+- Inside the city
+- Factories $\rightarrow$ port 
+- Countryside (slow and expensive!)
+:::
+
+::: {.column width="50%"}
+### Ports
+- Riverside and coastal cities
+- Exports
+:::
+::::
+
+
+
+## Early days 
+- Shipping costs were a enormous barrier, even inside the city
+- Workers commuted by foot or horse
+  + Spatial constraint on city size
+  + Should live close to factories!
+- Result: factories close to **downtown** and ports
+
+
+
+# The ascent of the monocentric city
+
+## Railways! 
+- Unprecedented revolution
+- Firms can reach farther markets
+- Enhances **agglomeration** economies
+- New pattern: firms clustered along rail the rails
+
+
+
+## Transit innovations
+
+- Cities are generally spatially limited by 1hr distance to downtown 
+- *Omnibus*, streetcars, subways $\rightarrow$ faster commute $\rightarrow$ cities got bigger!
+
+- $\downarrow$ commuting costs $\rightarrow$ $\uparrow$ city size $\rightarrow$ agglomeration economies
+  + Specialization
+  + Knowlede sharing
+  + Innovations
+
+
+
+## Transit innovations
+
+What's the impact in the urban strucutre equilibrium?
+
+:::: {.columns}
+::: {.column width="50%"}
+- While sprawling, this made cities more **monocentric**
+- Hub-and-spoke networks $\rightarrow$ easy access to the CBD
+- Residential development along transit corridors (TOD!)
+:::
+
+::: {.column width="50%"}
+![](images/bonde_bh.png){width="80%"}
+:::
+::::
+
+  
+
+## Construction innovations
+
+:::: {.columns}
+::: {.column width="50%"}
+### Until early 1800s
+- Wood in everything
+- Difficult and expensive to go above three floors
+- Ground floor was the most expensive
+:::
+
+::: {.column width="50%"}
+### Industrial Revolution
+- Nails become cheaper
+- Steel structures
+- Elevator (1854): up is the new down
+:::
+::::
+
+
+
+## The ascent of the monocentric city
+
+### Railway + streetcar + elevator = new spatial equilibrium
+
+- Cities grow up and above
+- Favors monocentric patterns
+  + Centralized businesses
+  + TOD
+- Firms still have large **shipping costs**, but it became cheaper to bring workers
+  + Allowed development outside downtown, along the rails
+
+
+
+
+# The decline of the monocentric city
+
+
+
+## Trucks
+- Just as the rails, a new revolution in **shipping costs**
+- No need to be right at the station or the consumer market
+- 1930s onward: competitive with respect to train and ships
+
+**Locational choice: before vs. after trucks**
+![](images/caminhao.png)
+
+
+
+## A ~~street~~car named desire
+
+- This I'm sure you all know better than anyone else... So I'm gonna concentrate on the **consequences** of sprawl.
+
+![](images/phoenix.jpg){fig-align="center"}
+
+
+
+## Offices and retail
+
+- Until the 70s: contact was key
+  + No excel, no email!
+  + Reports are expensive to move around: opertional activities **must** be downtown
+- 1980s onwards: PCs!
+  + Many occupations eliminated or done remotely
+  + E.g.: call centers outsourced to India
+
+
+
+## Offices and retail
+
+If contact is vital, the tendency is towards centralization. That's why, despite some predictions, downtown is not (completely) dead!
+
+> In many jobs, even the highly intellectual ones, face-to-face job increases **productivity**. Unplanned **interactions** at halls and common spaces use to be the key to progress. As important as that, remote work is rarely as pleasant as being in the same room. Glaeser and Cutler (2021)
 
 
 
