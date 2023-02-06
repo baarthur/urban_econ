@@ -43,7 +43,7 @@ Hey folks! I'm Arthur.
 2.  Why do cities exist?
 3.  Some fancy theories
 4.  A bit of history
-5.  How can **we** help?
+5.  How can economists help?
 
 
 
@@ -389,6 +389,84 @@ What's the impact in the urban strucutre equilibrium?
 If contact is vital, the tendency is towards centralization. That's why, despite some predictions, downtown is not (completely) dead!
 
 > In many jobs, even the highly intellectual ones, face-to-face job increases **productivity**. Unplanned **interactions** at halls and common spaces use to be the key to progress. As important as that, remote work is rarely as pleasant as being in the same room. Glaeser and Cutler (2021)
+
+
+
+## The causes of sprawl
+
+From an economic point of view:
+
+- Not internalized negative externalities
+  + Parking (Donald Shoup)
+  + Network costs: pipes, energy, road etc
+  + Subsidized highways
+
+Urban economists pay attention to all of this, but it's outside the core of most undergrad and graduate courses.
+
+
+
+## The causes of sprawl
+
+From an economic point of view:
+
+- Richer society: higher land demand
+- Cars made farther regions more accessible (er... if you have a car)
+  + Obviously, mainly thanks to subsidized infrastructure
+  
+  
+
+
+# The consequences of sprawl
+
+## The consequences of sprawl
+
+:::: {.columns}
+::: {.column width="40%"}
+#### Direct 
+- $\downarrow$ economies of scale
+  + Double infrastructure 
+:::
+
+::: {.column width="60%"}
+#### Indirect
+- Loss of efficiency!
+  + Smaller agglomeration economies
+  + Loss of **potential** productivity gains
+:::
+::::
+
+
+
+
+# How can economists help?
+
+## Pushing foward the agenda 
+
+- From theory to practice...
+  + We're still a baby science
+  + Just learning to deal with **causal inference**.
+  
+- Many urban economists try to link transit development, land use, affordability, and economic growth
+
+
+
+## Pushing foward the agenda
+
+- The biggest challenge: everything happens at the same time!
+  + We call that *endogeneity*
+  + Makes harder to prove causal relations
+  + But when we're able to do so... it's a powerful argument for policymaking.
+
+
+
+## Pushing foward the agenda
+
+### Computable General Equilibrium (CGE) Models
+
+- Economic simulation
+- Full of strong assumptions...
+- ...but provides powerful insights
+  + Haddad (2015) calculated the economic value of São Paulo's subway system
 
 
 
